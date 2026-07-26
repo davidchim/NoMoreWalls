@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  network: ws
+  port: 33412
+  server: ct3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct3.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW_1|2.7MB/s
+  network: ws
+  port: 2096
+  server: twdx6.baidupi.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  ws-opts:
+    headers:
+      Host: cos.ap-shanghai.myqcloud.com
+    path: /assets/images/
