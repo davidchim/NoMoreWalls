@@ -8,11 +8,10 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 香港|@ripaojiedian
-  network: tcp
-  port: '30807'
+  name: 🇭🇰 香港|@ripaojiedian
+  port: 30807
   server: v10.hdacd.com
-  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -21,6 +20,7 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
   server: 18.166.29.24
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
@@ -39,7 +39,17 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇭🇰HK_1|4.3MB/s
+- alterId: 2
+  cipher: auto
+  name: 香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰HK_1|3.5MB/s
   network: ws
   port: 8443
   server: 207.174.133.111

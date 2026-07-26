@@ -12,6 +12,7 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
   server: 13.158.67.26
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
@@ -19,13 +20,6 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
   server: 18.163.181.97
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_1|1.5MB/s
-  password: AQ71834695
-  port: 443
-  server: concise-lacewing.rooster465.autos
-  skip-cert-verify: true
-  sni: concise-lacewing.rooster465.autos
-  type: trojan
-  udp: true
