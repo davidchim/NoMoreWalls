@@ -9,10 +9,27 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 🦄35@oneclickvpnkeys
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: 178.215.238.30
+  sni: germany1.noesissite.ru
+  tls: false
+  type: hysteria2
 - name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪3
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: 1Tm8undefinedEG5fl
+  port: 443
+  server: 91.107.178.22
+  skip-cert-verify: true
+  sni: www.refersion.com
+  tls: false
+  type: hysteria2
+- name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪4
+  obfs: salamander
+  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
+  password: 4IGOAN2QIY
   port: 443
   server: 91.107.178.22
   skip-cert-verify: true
@@ -39,6 +56,16 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪5
+  obfs: salamander
+  obfs-password: V2RayyNGvpn
+  password: im0McIgBXw
+  port: 43913
+  server: 91.107.178.22
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪2
   obfs: salamander
   obfs-password: V2RayyNGvpn
@@ -49,28 +76,17 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|2.0MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
-  server: hkdcrtc-e.catcat321.com
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪DE_1|1.6MB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
   skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
+  sni: apple.com
+  type: hysteria
   udp: true
-- client-fingerprint: chrome
-  name: DE_speednode_0004
-  network: ws
-  port: 2053
-  server: 51.89.23.94
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
+  up: 500
