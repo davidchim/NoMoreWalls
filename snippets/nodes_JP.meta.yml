@@ -23,18 +23,6 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 🇯🇵JP_2|5.9MB/s
-  obfs: salamander
-  obfs-password: XBvVbvzQCq6Ovbnh
-  password: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
-  port: '14101'
-  server: jpaw8.awo-link.com
-  skip-cert-verify: false
-  sni: jpaw8.awo-link.com
-  type: hysteria2
-  up: ''
 - client-fingerprint: chrome
   name: JP_speednode_0067
   network: ws

@@ -23,13 +23,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- auth: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
-  down: 1000
-  name: 🇸🇬SG_1|5.3MB/s
-  password: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
-  port: 18383
-  server: sg1.ktmhyld.com
-  skip-cert-verify: true
-  sni: sg1.ktmhyld.com
-  type: hysteria2
-  up: 1000
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_1|3.0MB/s
+  network: tcp
+  port: '39553'
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: v1.cdn.wj0zugpsmub2.jjxdns.net
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  xudp: true
