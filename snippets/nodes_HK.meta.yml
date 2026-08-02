@@ -51,6 +51,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- down: 1000
+  name: 🇭🇰HK_1|4.6MB/s
+  password: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
+  port: 18385
+  server: hk1.ktmhyld.com
+  skip-cert-verify: true
+  type: hysteria2
+  up: 1000
 - name: HK_speednode_0050
   password: BxceQaOe
   port: 29443
