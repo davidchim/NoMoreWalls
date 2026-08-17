@@ -1,8 +1,1 @@
-proxies:
-- name: 🇫🇷FR_2|1.7MB/s
-  password: PQ05174892
-  port: 443
-  server: lucky-marmot.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+proxies: []
