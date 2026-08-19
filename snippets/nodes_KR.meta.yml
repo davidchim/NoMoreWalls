@@ -1,22 +1,4 @@
 proxies:
-- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 108.162.196.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 72.167.230.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
 - name: 🇰🇷|KR|@wxgqlfx|24
   password: dfb54e674104158210fdfcac45e5679d
   port: 50160
@@ -51,7 +33,14 @@ proxies:
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
   xudp: true
 - cipher: aes-256-cfb
-  name: 🇰🇷KR_2|2.3MB/s
+  name: 🇰🇷KR_2|3.9MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.235
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_3|4.1MB/s
   password: 7eadc6dbe2ae
   port: '65443'
   server: 121.46.230.138

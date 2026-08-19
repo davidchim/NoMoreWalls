@@ -1,26 +1,19 @@
 proxies:
-- name: 'A - 🇨🇦 CA 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 50.62.195.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime38.workers.dev
-    path: /?ed=2560
-- client-fingerprint: random
+- client-fingerprint: chrome
   encryption: none
-  name: 'B - 🇨🇦 CA 02 TG: @nodpai'
+  name: 🇨🇦CA_1|2.1MB/s
   network: ws
-  port: 443
-  security: tls
-  server: shopify.com
-  servername: misaka.cndyw.ggff.net
+  port: '8443'
+  server: 172.67.74.2
+  servername: ssl.miloi8dmz.top
   tls: true
   type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  udp: true
+  uuid: 7a1e59f5-ec16-4a5e-9bfb-bb6c0706c09b
   ws-opts:
     headers:
-      Host: misaka.cndyw.ggff.net
-    path: /?ed=2560
+      Host: worker-015.miloi8dmz.top
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /cdn/7ae87fc47c544a50
+  xudp: true
