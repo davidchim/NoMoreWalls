@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  network: ws
+  port: 33412
+  server: ct3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct3.ainivp.com
+    path: /ray
+- cipher: aes-256-cfb
+  name: 🇹🇼TW_1|1.3MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 120.232.253.94
+  type: ss
+  udp: true
