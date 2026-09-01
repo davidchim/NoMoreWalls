@@ -1,76 +1,4 @@
 proxies:
-- encryption: none
-  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
-  network: tcp
-  port: 10443
-  server: 136.244.94.171
-  type: vless
-  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
-- encryption: none
-  name: 'A - 🇩🇪 DE 02 TG: @nodpai'
-  network: tcp
-  port: 443
-  server: 136.244.94.171
-  type: vless
-  uuid: 52516534-4986-4959-b30b-a89463eed9af
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: GrpcFuckRKN
-  name: 'A - 🇩🇪 DE 04 TG: @nodpai'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
-    short-id: '!!str deadbeef'
-  security: reality
-  server: 194.58.41.65
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: GrpcFuckRKN
-  name: 'A - 🇩🇪 DE 05 TG: @nodpai'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
-    short-id: '!!str deadbeef'
-  security: reality
-  server: 194.58.41.65-uhe66vr6.nike77prime.ru
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
-- name: 'A - 🇩🇪 DE 06 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.80.111.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime52.workers.dev
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
-    short-id: '!!str a1b2c3d4e5f6'
-  security: reality
-  server: 84.21.189.197
-  servername: queuev4.vk.com
-  tls: true
-  type: vless
-  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
 - name: 德国
   obfs: salamander
   obfs-password: Xydh1mcz51VQHbbJ
@@ -136,17 +64,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 🇫🇮158099 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 4savc5ig1n3549e4
-  port: 52021
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 🇩🇪AZARBAYJAB1
+  name: 'Channel : @Daily_Configs'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 4savc5ig1n3549e4
@@ -224,73 +142,26 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|3.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
-    short-id: '!!str 09ef88a6'
-  server: app4.goonars.com
-  servername: app4.goonars.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
-  xudp: true
-- name: 🇩🇪DE_2|1.5MB/s
+- name: 🇩🇪158227 | ⚡️Telegram = t.me/S...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 149.36.50.1
+  server: 3.123.25.85
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: vpn-de-001.fastervpn.world
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_3|2.7MB/s
-  network: tcp
-  port: '2053'
-  reality-opts:
-    public-key: 9lz79Eqetl8jIMyXAXQzH_nItAt68C7VYGevOawpETM
-    short-id: '!!str 88c0a94a78c5ef4b'
-  server: 162.55.242.208
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6deab233-3abc-492a-85c9-503ef4160b47
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_6|2.9MB/s
-  network: raw
+  name: 🇩🇪DE_1|1.3MB/s
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: jArfQhwueyEcn5c5OkbtFavMJbiLM9aWH3Xbxnu6EEM
+    public-key: oHL8Bc1TqMpL4x46qoyZKZBKuaQOSjSrNGUQKgAUi1g
     short-id: '!!str '
-  server: 77.110.99.144
-  servername: yahoo.com
+  server: e757de.rucdn.pro
   tls: true
   type: vless
   udp: true
-  uuid: c1943f8a-11c6-402d-a439-dc0be226d916
-  xudp: true
-- client-fingerprint: edge
-  name: 🇩🇪DE_5|1.4MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: '!!str f79448a30d'
-  server: de-xh01.tcp-reset-club.net
-  servername: s3.netavex.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0678ed07-980a-49c1-9066-05caec654967
-  xhttp-opts:
-    mode: packet-up
-    path: /assets/v2/pkg
+  uuid: 21672ca3-da3f-46cd-9b67-2b2d4cb0beb3
   xudp: true
