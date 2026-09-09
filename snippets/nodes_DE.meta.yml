@@ -1,4 +1,76 @@
 proxies:
+- encryption: none
+  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
+  network: tcp
+  port: 10443
+  server: 136.244.94.171
+  type: vless
+  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
+- encryption: none
+  name: 'A - 🇩🇪 DE 02 TG: @nodpai'
+  network: tcp
+  port: 443
+  server: 136.244.94.171
+  type: vless
+  uuid: 52516534-4986-4959-b30b-a89463eed9af
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: GrpcFuckRKN
+  name: 'A - 🇩🇪 DE 04 TG: @nodpai'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: GrpcFuckRKN
+  name: 'A - 🇩🇪 DE 05 TG: @nodpai'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65-uhe66vr6.nike77prime.ru
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- name: 'A - 🇩🇪 DE 06 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.111.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime52.workers.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
+    short-id: '!!str a1b2c3d4e5f6'
+  security: reality
+  server: 84.21.189.197
+  servername: queuev4.vk.com
+  tls: true
+  type: vless
+  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
 - name: 📀57@oneclickvpnkeys
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
@@ -135,91 +207,26 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - www.dell.com
-    path:
-    - /
-  name: 🇩🇪DE_1|1.7MB/s
-  network: http
-  port: '80'
-  server: 168.119.103.176
-  type: vless
-  udp: true
-  uuid: 8aae31db-4a64-47e2-9f0e-8e014ae5d995
-  xudp: true
-- name: 🇩🇪DE_2|1.0MB/s
+- name: 🇩🇪DE_1|1.0MB/s
+  password: None
   port: 443
-  server: 149.36.50.1
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.JgBGQxcFxZdwwvHJgyYQ9Qw8ezpz532ZMa6I4XEadAo
-  name: 🇩🇪DE_3|2.8MB/s
+  username: null
+- client-fingerprint: chrome
+  name: 🇩🇪DE_2|1.2MB/s
   network: ws
-  port: '443'
-  server: mobileomrani.speedoraa.ir
-  servername: pas.speedoraa.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1d9b478e-f82b-430b-bcea-3fe236342e1f
-  ws-opts:
-    headers:
-      Host: pas.speedoraa.ir
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇩🇪DE_4|1.5MB/s
   port: 443
-  server: 87.249.132.97
+  server: 172.67.77.77
+  servername: mianfei-73q.pages.dev
   skip-cert-verify: true
   tls: true
-  type: http
-- alpn:
-  - h3
-  - ' h2'
-  - ' http/1.1'
-  client-fingerprint: chrome
-  name: 🇩🇪DE_5|1.3MB/s
-  network: ws
-  password: yVnpewtJT__ErgqS-TI2dw
-  port: '8443'
-  server: 206.1.96.244
-  skip-cert-verify: false
-  sni: lunexhost.tolkun-tv.ru
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /Lunex
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_6|1.7MB/s
-  network: xhttp
-  port: '2096'
-  server: 193.227.99.253
-  servername: df.monister.ir
-  tls: true
   type: vless
   udp: true
-  uuid: ef04fed2-399b-4533-b423-f92c8cb66234
-  xhttp-opts:
-    host: df.monister.ir
-    mode: auto
-    path: /
-  xudp: true
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  ws-opts:
+    headers:
+      Host: mianfei-73q.pages.dev
+    path: /proxyip=154.3.33.43
