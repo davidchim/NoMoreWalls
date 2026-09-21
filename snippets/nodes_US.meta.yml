@@ -27,7 +27,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|2.8MB/s
+- name: 🇺🇸US_1|1.5MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -35,205 +35,29 @@ proxies:
   sni: anytls2.864106.xyz
   type: anytls
   udp: true
-- fingerprint: ''
-  name: 🇺🇸US_2|1005KB/s
-  password: 9sK2mP8xQ7vL3nZ6
-  port: '443'
-  server: awefd2313fefarg23fr24.pnuqcnp.cn
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-  username: 9sK2mP8xQ7vL3nZ6
-- name: 🇺🇸US_3|2.5MB/s
-  password: 'null'
-  port: 443
-  server: webdrone.club
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_4|4.1MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇺🇸US_5|3.9MB/s
-  network: ws
-  port: 2053
-  server: 104.16.254.239
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /movies/stream/city?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇺🇸US_6|2.8MB/s
-  network: ws
-  port: 443
-  server: 173.245.49.194
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /retrieve?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇺🇸US_7|1.9MB/s
-  network: ws
-  port: 443
-  server: 104.16.152.241
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /user/china?ed=2560
-- name: 🇺🇸US_8|2.5MB/s
-  password: 'null'
-  port: 443
-  server: carolinafreigh.fun
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_9|1.3MB/s
-  port: 443
-  server: carolinafreigh.fun
-  sni: carolinafreigh.fun
-  tls: true
-  type: http
-- name: 🇺🇸US_10|1.7MB/s
+- name: 🇺🇸US_2|1.2MB/s
   password: None
   port: 443
-  server: zebpay.site
+  server: tzoa.fun
   skip-cert-verify: false
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_11|2.0MB/s
-  password: None
-  port: 443
-  server: kimberlymilano.icu
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_12|3.2MB/s
-  password: ''
-  port: 443
-  server: purposebydesig.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_13|3.4MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_14|3.2MB/s
-  password: None
-  port: 443
-  server: berniesbodybla.fun
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_15|1.1MB/s
-  password: None
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇺🇸US_16|3.3MB/s
-  network: ws
-  port: 443
-  server: 104.17.145.73
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /act?ed=2560
-- name: 🇺🇸US_17|1.0MB/s
-  network: ws
-  password: d9f20a29-239e-46ab-82bb-fa0d69e480f9
-  port: 443
-  server: 104.17.156.140
-  skip-cert-verify: true
-  sni: zxcvz.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: zxcvz.pages.dev
-    path: /proxyip=proxy.seeck.cn/api/nodes?region=JP&limit=10&format=brand
-- client-fingerprint: chrome
-  encryption: none
+  encryption: mlkem768x25519plus.random.0rtt.100-111-1111.75-0-111.50-0-3333.HqAJDapKVNOb1sf4hJJ9Bj_TFbuhclVZ185D0-R022o
   flow: xtls-rprx-vision
-  name: 🇺🇸US_18|3.2MB/s
+  name: 🇺🇸US_3|2.8MB/s
   network: tcp
   port: '443'
   reality-opts:
-    public-key: 9scNoKQky3ncRRW5yZqWlTU9cChQAK5rCpM6xfVQR3g
-    short-id: '!!str 71b83607c5c0'
-  server: usanbnode.jumpernode.online
-  servername: konrad-test.amazon.com
+    public-key: aOfiTGCPr4ZjytCZrTL5zcMe-azl_FuG2Ywc1ZxH538
+    short-id: '!!str fe9d69f0913cef88'
+  server: us-1.veraspeed.ir
+  servername: thestraightpath.ca
   tls: true
   type: vless
   udp: true
-  uuid: ffe0a6ce-07f0-4146-910f-74bdce2f9697
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_19|1020KB/s
-  network: ws
-  port: '443'
-  server: 104.21.87.109
-  servername: 7-m16.PhUkEt2035.kdNS.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 7-m16.PhUkEt2035.kdNS.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  uuid: 4c910f7d-a04a-434d-9f33-974dd21446a8
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
