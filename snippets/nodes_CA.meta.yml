@@ -3,7 +3,7 @@ proxies:
   name: 🇨🇦CA_1|1.2MB/s
   network: ws
   port: 443
-  server: 45.133.16.41
+  server: 147.182.156.112
   servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true

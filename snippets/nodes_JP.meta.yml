@@ -31,7 +31,7 @@ proxies:
   type: ss
 - down: ''
   fingerprint: ''
-  name: 🇯🇵JP_1|2.5MB/s
+  name: 🇯🇵JP_1|2.9MB/s
   obfs: ''
   obfs-password: ''
   password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
@@ -42,39 +42,38 @@ proxies:
   type: hysteria2
   up: ''
 - client-fingerprint: chrome
-  name: 🇯🇵JP_2|1.8MB/s
+  encryption: none
+  name: 🇯🇵JP_2|5.1MB/s
   network: ws
-  port: 443
-  server: 64.176.34.130
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
+  port: '443'
+  server: cdn.cf.3666888.xyz
+  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: shuma.ccwu.cc
-    path: /
+      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /?ed=2560
+  xudp: true
 - client-fingerprint: chrome
-  name: 🇯🇵JP_3|1.1MB/s
+  encryption: none
+  name: 🇯🇵JP_3|5.1MB/s
   network: ws
-  port: 443
-  server: 140.83.87.85
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
+  port: '443'
+  server: ct.877774.xyz
+  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: shuma.ccwu.cc
-    path: /
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_4|5.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.230.153.249
-  type: ss
-  udp: true
+      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /?ed=2560
+  xudp: true
