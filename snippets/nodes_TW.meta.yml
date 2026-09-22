@@ -5,19 +5,3 @@ proxies:
   port: 30001
   server: 36.33.35.105
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇹🇼TW_1|4.9MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
-    short-id: '!!str e6d59aff03e5b0'
-  server: tw4.miyazono-kaori.com
-  servername: dlcdnets.asus.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e125bbfe-1307-471d-b21c-c1afe0c1de98
-  xudp: true

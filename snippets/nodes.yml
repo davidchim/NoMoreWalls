@@ -196,12 +196,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇺🇸US_33|1.6MB/s
-  password: 600421cf-11d7-429f-a65b-c30397f1bc03
-  port: '443'
-  server: 23.106.44.14
-  skip-cert-verify: false
-  sni: sj6.freeguard.org
-  type: trojan
-  udp: true

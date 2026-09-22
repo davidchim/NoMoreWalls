@@ -1,17 +1,1 @@
-proxies:
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇪🇪EE_1|1.2MB/s
-  network: tcp
-  port: '80'
-  reality-opts:
-    public-key: qRmJt3yJ1D6msG1yp3CVRZkXbNM_I6cWN07DlYLbHms
-    short-id: '!!str '
-  server: latte.coffebahnem.site
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 515fa0fd-8d70-47dc-a82e-06c257be1fdb
-  xudp: true
+proxies: []

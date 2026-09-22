@@ -46,35 +46,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_1|3.7MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc
-    short-id: '!!str b81edf7fdee4'
-  server: hk3.miyazono-kaori.com
-  servername: hk4e-launcher-static.hoyoverse.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e125bbfe-1307-471d-b21c-c1afe0c1de98
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_2|3.7MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
-    short-id: '!!str ea6b43'
-  server: hk4.miyazono-kaori.com
-  servername: hk4e-launcher-static.hoyoverse.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e125bbfe-1307-471d-b21c-c1afe0c1de98
-  xudp: true
