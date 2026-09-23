@@ -29,10 +29,12 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_1|5.3MB/s
-  password: amazonskr05
-  port: '443'
-  server: 3.112.209.209
-  type: ss
+- auth: my_super_password_123
+  name: 🇯🇵JP_1|2.9MB/s
+  password: my_super_password_123
+  port: 5443
+  server: open.w2m.ink
+  skip-cert-verify: true
+  sni: open.w2m.ink
+  type: hysteria2
   udp: true

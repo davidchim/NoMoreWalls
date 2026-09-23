@@ -27,80 +27,24 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|1.9MB/s
-  port: 9443
-  server: 38.95.111.226
+- auth: Xmfo9FkLBCNprxd2Dohi
+  name: 🇺🇸US_1|3.7MB/s
+  password: Xmfo9FkLBCNprxd2Dohi
+  port: 8443
+  server: 143.246.56.172
   skip-cert-verify: true
-  tls: true
-  type: http
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_2|1.0MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 134.195.101.70
-  type: ss
+  sni: bing.com
+  type: hysteria2
   udp: true
-- name: 🇺🇸US_3|2.3MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
+- auth: f62f231b031f54cde7015c87a754ea8f
+  name: 🇺🇸US_2|1.3MB/s
+  password: f62f231b031f54cde7015c87a754ea8f
+  port: 443
+  server: 108.59.244.158
   skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-- name: 🇺🇸US_4|3.4MB/s
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
+  sni: vkvideo.ru
+  type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_5|2.5MB/s
-  network: ws
-  port: '443'
-  server: 104.17.159.240
-  servername: meu4s.dmgb.475.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: meu4s.dmgb.475.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_6|1.1MB/s
-  network: ws
-  port: '443'
-  server: 45.131.4.41
-  servername: xi.tbv.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  ws-opts:
-    headers:
-      Host: xi.tbv.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /proxyip=us.xiabibi.cf
-  xudp: true
-- name: 🇺🇸US_7|3.4MB/s
-  password: None
-  port: '9002'
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
