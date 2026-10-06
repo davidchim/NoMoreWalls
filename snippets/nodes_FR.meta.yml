@@ -1,21 +1,12 @@
 proxies:
-- client-fingerprint: ios
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_7|2.8MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 45.9.118.101
-  servername: sellflow.org
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_1|1.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.36.167.227
+  type: ss
   udp: true
-  uuid: 44730b65-24d5-45f2-8b45-8be24015d1b9
-  xudp: true
-- name: 🇫🇷FR_2|1.0MB/s
+- name: 🇫🇷FR_2|1.3MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 30099
   server: ip5.934618.xyz
@@ -23,28 +14,24 @@ proxies:
   sni: ip5.934618.xyz
   type: anytls
   udp: true
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_3|2.1MB/s
-  password: amazonskr05
+- name: 🇫🇷FR_3|3.4MB/s
   port: 443
-  server: 13.36.178.160
-  type: ss
+  server: 51.210.167.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_4|1.2MB/s
+  network: tcp
+  port: '8445'
+  reality-opts:
+    public-key: T3mwuNKqo8QuH0Vy6E50yClcQBSuh3scQJEl154D_j4
+    short-id: '!!str 8d241939'
+  server: fin3.noirex.ir
+  servername: www3.donyumvps.tr
+  tls: true
+  type: vless
   udp: true
-- name: 🇫🇷FR_4|1.6MB/s
-  port: 443
-  server: 13.37.226.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_5|1.1MB/s
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_6|1.9MB/s
-  port: 443
-  server: 13.37.228.51
-  skip-cert-verify: true
-  tls: true
-  type: http
+  uuid: 250865f0-4a0f-4e2e-8d14-4c39a25d0bef
+  xudp: true
