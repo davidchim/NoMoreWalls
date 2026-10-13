@@ -37,24 +37,9 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇸🇬SG_1|1.9MB/s
-  network: ws
-  port: '8880'
-  server: themeforest.net
-  type: vless
-  udp: true
-  uuid: c2569d72-0ba1-44e8-986f-be445edb5f3d
-  ws-opts:
-    headers:
-      Host: silent-union-ac36.315-33d.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
-- name: 🇸🇬SG_2|2.1MB/s
-  password: '!!str 1234'
-  port: '2080'
-  server: 54.151.156.21
-  skip-cert-verify: true
-  type: http
-  username: '1234'
+- cipher: aes-128-gcm
+  name: 🇸🇬SG_1|4.7MB/s
+  password: 85590bd2-807b-49b9-af20-1101c18b9eda
+  port: 40022
+  server: ruot.ayucloudservices.nl
+  type: ss
